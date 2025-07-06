@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel=“stylesheet” type=“text/css” href=“style.css” />
+    <meta charset="UTF-8">
+    <title>Страница 1</title>
+</head>
+<body>
+<form action="input1.php" method="post">
+    <p><b>Ваше имя:</b><br>
+        <input type="text" id="userName" name="userName" size="50">
+    </p>
+
+    <p><b>Выберите цвет:</b><br>
+        <input type="radio" value="red" name="colour"> Красный<br>
+        <input type="radio" value="green" name="colour"> Зелёный<br>
+        <input type="radio" value="blue" name="colour"> Синий<br>
+    </p>
+
+    <p><b>Выберите страну производителя:</b><br>
+    <p><input type="checkbox" value="japan" name="country"> Япония<br>
+        <input type="checkbox" value="china" name="country"> Китай<br>
+        <input type="checkbox" value="italy" name="country"> Италия<br>
+        <input type="checkbox" value="france" name="country"> Франция<br>
+        <input type="checkbox" value="usa" name="country"> США<br>
+    </p>
+
+    <p><b>Выберите категорию ТС:</b><br>
+    <p><select size="7" name="cathegory[]">
+        <option disabled>Не выбрано</option>
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+        <option value="d">D</option>
+        <option value="e">E</option>
+    </select></p>
+
+    <p><b>Выберите марку:</b><br>
+    <p><select size="10" multiple name="brand[]">
+        <option disabled>Не выбрано</option>
+        <option value="yamaha">Yamaha</option>
+        <option value="rglmoto">Regulmoto</option>
+        <option value="ktm">KTM</option>
+        <option value="apr">Aprilia</option>
+        <option value="hd">Harley Davidson</option>
+    </select></p>
+
+    <p><b>Комментарий:</b><br>
+    <p><textarea rows="10" cols="45" name="text"></textarea></p>
+
+    <p>
+        <button type="reset">Очистить форму</button>
+    </p>
+
+    <p><input type="submit" value="Отправить"></p><br>
+</form>
+
+
+<p>
+    <button onclick="document.location='Page_2.html'">Следующая страница</button>
+</p>
+</body>
+</html>
