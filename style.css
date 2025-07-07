@@ -1,4 +1,18 @@
-.header {
+head {
+color: #8B0000;
+font-family: Arial;
 font-size: 24px;
 font-weight: bold;
 }
+body {
+font-family: Arial;
+font-size: 16px;
+font-weight: bold;
+}
+h1 {
+   font-family: Bookman old style;
+   font-size: 36px;
+   font-weight: bold;
+   color: #8B0000;
+   text-align: left;
+ }
